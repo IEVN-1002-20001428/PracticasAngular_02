@@ -1,0 +1,24 @@
+<form action="">
+    <div class="container">
+        <div class="row">
+            <h4 class="card-title">Conversión de temperaturas</h4>
+            <div class="col-lg-6">
+                <div class="d-flex gap-4 mb-3">
+                    <input type="radio" [(ngModel)]="opcion" name="opcion" value="1" checked>A celsius
+                    <input type="radio" [(ngModel)]="opcion" name="opcion" value="2">A farenheit
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="">Temperatura</label>
+                    <input type="text" class="form-control" [(ngModel)]="temperatura" name="temperatura"
+                        placeholder="Temperatura">
+                </div>
+                <div class="mb-3">
+                    <button (click)="convertir()" class="btn btn-primary">CALCULAR</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2>Resultado es: {{resultado}}</h2>
+            </div>
+        </div>
+    </div>
+</form>
