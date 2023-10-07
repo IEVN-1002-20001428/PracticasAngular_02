@@ -1,0 +1,23 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+
+.title {
+    font-size: 54px;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #83DCFC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.entrada,
+.salida {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
