@@ -2,6 +2,8 @@
     width: 100vw;
     height: 100vh;
     color: #fff;
+    background-image: url('../../../assets/img/cinepolis_bg.jpg');
+    background-size: cover;
 }
 
 .title {
@@ -9,7 +11,7 @@
     background: #121FCF;
     background: linear-gradient(to right, #121FCF 0%, #83DCFC 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .entrada,
